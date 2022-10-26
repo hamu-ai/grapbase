@@ -1,0 +1,9 @@
+schema:
+  - ${GRAFBASE_API_URL}:
+      headers:
+        x-api-key: ${GRAFBASE_API_KEY}
+
+generates:
+  types.ts:
+    plugins:
+      - typescript

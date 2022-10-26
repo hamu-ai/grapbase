@@ -1,0 +1,20 @@
+{
+  "name": "grafbase",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "codegen": "graphql-codegen -r dotenv/config --watch "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@graphql-codegen/cli": "^2.13.7",
+    "@graphql-codegen/typescript": "^2.7.4"
+  },
+  "dependencies": {
+    "graphql": "^16.6.0"
+  }
+}
